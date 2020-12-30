@@ -1,5 +1,18 @@
 # nestjs-tutorial
 
+## Why nestjs?
+
+- typescript(권장), js도 가능 (타입스크립트 세팅 틀 지원)
+- Django 처럼 cli로 틀 찍어내기 가능 (ex nest g cotroller <이름>)
+- Http 플랫폼 독립적 (express and fastify 사용 가능하며, express 디폴트)
+- 다른 nodejs 프레임워크와 달리, 디자인 패턴 강요(IoC, DI) -> 장점이 될수도 있지만, 상대적으로 낮은 자유도, 높은 러닝커브
+- CRUD generator 제공 (graphQL, REST, WebSocket 선택가능)
+- dto validation / serializer 제공
+- unit 테스트 default로 scaffold(di mocking, Jest default)
+- health-check 제공 (readiness / liveness health checks)
+- Prisma 호환
+- 미치도록 친절하고 자세한 문서 ..
+
 ## 1. 환경 세팅
 
 ```bash

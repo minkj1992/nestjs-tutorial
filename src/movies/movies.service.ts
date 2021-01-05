@@ -6,7 +6,7 @@ import { Movie } from './entities/movie.entity';
 @Injectable()
 export class MoviesService {
   // TODO: transfer to db
-  // what is readonly for here do?
+  // what is readonly for here do? -> 왜 에러가 뜨지 않을까?
   private readonly movies: Movie[] = [];
 
   create(createMovieDto: CreateMovieDto): number {
